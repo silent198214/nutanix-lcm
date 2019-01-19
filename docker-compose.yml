@@ -1,0 +1,16 @@
+version: '2.0'
+
+services:
+  ntnx-httpd:
+    build:
+      context: ntnx-httpd/
+    volumes:
+      - ./ntnx-httpd/release:/usr/local/apache2/htdocs/release:ro
+    ports:
+      - "80:80"
+    networks:
+      - ntnx-net
+
+networks:
+  ntnx-net:
+    driver: bridge
