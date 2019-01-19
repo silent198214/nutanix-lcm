@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM silent198214/nutanix-lcm:latest
 
 LABEL vendor="IDN Design Studio" \
       version="1.0" \
