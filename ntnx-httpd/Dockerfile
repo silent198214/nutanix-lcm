@@ -1,6 +1,6 @@
 FROM silent198214/nutanix-lcm:latest
 
-LABEL vendor="IDN Design Studio" \
+LABEL vendor="Sam Chen" \
       version="1.0" \
       maintainer="Sam Chen<silent198214@gmail.com>" \
       description="Nutanix LCM Server"
